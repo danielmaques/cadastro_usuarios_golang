@@ -10,7 +10,7 @@ import (
 
 func main() {
 	config.Carregar()
-	fmt.Println(config.StringConexaoBanco)
+	// fmt.Println(config.StringConexaoBanco)
 	fmt.Print("rodando na porta :",config.Porta)
 
 	r := rotas.Gerar()
